@@ -1,0 +1,114 @@
+/*------------------------------------------------------------------------------------------*/
+.before-metro{
+    margin-top: 212px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+/*------------------------------------------------------------------------------------------*/
+.after-alandur{
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.below{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+/*------------------------------------------------------------------------------------------*/
+.destinations{
+    height: 250px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+/*------------------------------------------------------------------------------------------*/
+.blue-route{
+    display: flex;
+    flex-direction: row;
+}
+.stop-blue{
+    height: 40px;
+    width: 25px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.connect-blue{
+    margin-top: 10px;
+    height: 18px;
+    width: 141.5px;
+    background-color: blue;
+}
+/*------------------------------------------------------------------------------------------*/
+.green-route{
+    display: flex;
+    flex-direction: row;
+}
+.stop-green{
+    height: 40px;
+    width: 25px;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.connect-green{
+    margin-top:14px;
+    height: 18px;
+    width: 77px;
+    background-color: green;
+}
+/*------------------------------------------------------------------------------------------*/
+.color{
+    height: 30px;
+    width: 20px;
+    background-color: grey;
+    border-radius: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.color:hover{
+    background-color: greenyellow
+}
+/*------------------------------------------------------------------------------------------*/
+.up-name,.up-name-1{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    font-family: Roboto , Arial;
+    font-weight: 500;
+    font-size: 16px;
+    bottom: 50px;
+    right: 0px;
+    pointer-events: none;
+}
+.up-name-1{
+    bottom: 70px;
+}
+.down-name{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 100px;
+    text-align: center;
+    font-family: Roboto , Arial;
+    font-weight: 500;
+    font-size: 16px;
+    bottom:-50px;
+    right: 0px;
+    pointer-events: none;
+}
+/*------------------------------------------------------------------------------------------*/
